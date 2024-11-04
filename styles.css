@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+    text-transform: uppercase;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Botones */
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn-add {
+    background-color: #4CAF50; /* Verde */
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.btn-edit {
+    background-color: #ffc107; /* Amarillo */
+}
+
+.btn-delete {
+    background-color: #f44336; /* Rojo */
+}
+
+.btn-add:hover {
+    background-color: #45a049;
+}
+
+.btn-edit:hover {
+    background-color: #e0a800;
+}
+
+.btn-delete:hover {
+    background-color: #d32f2f;
+}
+
+/* Contenedor para centrar */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
